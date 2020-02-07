@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#743B3B"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/heightTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="@string/lenght"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/heightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/heightText"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/weightTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="@string/weight"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/weightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/weightText"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:onClick="calculateBMI"
+        android:text="@string/calculate"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:layout_marginTop="50sp"
+        android:gravity="center"
+        android:text="@string/BMItext"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/openProfileButton"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:onClick="openProfile"
+        android:text="@string/profile"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/asiakastukiButton"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:onClick="dialCustomerSupport"
+        android:text="@string/customerSupport"
+        android:textSize="30sp" />
+</LinearLayout>
